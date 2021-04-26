@@ -1,4 +1,4 @@
-numpy==1.18.5
+numpy==1.19.5
 matplotlib==3.2.2
 pyngrok==4.1.1
 bing_image_downloader==1.0.4
