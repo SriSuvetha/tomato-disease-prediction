@@ -31,5 +31,5 @@ if uploaded_file is not None:
     flat_data.append(img_resized.flatten())
     flat_data=np.array(flat_data)
     y_out=model.predict(flat_data)
-    y_out=CATEGORIES[y_out[0]]
-    st.title(f'PREDICTED OUTPUT',{y_out})
+    y_out1=CATEGORIES[y_out[0]]
+    st.title(f'PREDICTED OUTPUT',{y_out1})
