@@ -32,4 +32,5 @@ if uploaded_file is not None:
     flat_data=np.array(flat_data)
     y_out=model.predict(flat_data)
     y_out1=CATEGORIES[y_out[0]]
-    st.title(f'PREDICTED OUTPUT',{y_out1})
+    st.write('PREDICTED OUTPUT')
+    st.title({y_out1})
